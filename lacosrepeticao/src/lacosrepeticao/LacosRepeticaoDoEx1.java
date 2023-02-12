@@ -5,20 +5,23 @@ import java.util.Scanner;
 public class LacosRepeticaoDoEx1 {
 
 	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		int num, cont = 0;
+		
+		
+		do {
+			System.out.println("Digite um número: ");
+			num = sc.nextInt();
+			
+			if(num > 0) {
+				cont = cont + num;
+				
+			}
+			
+		}while(num != 0);
 
-        int numero = 0;
-        int somaNumeros = 0;
-
-        do {
-            System.out.print("Digite um número: ");
-            numero = sc.nextInt();
-            if (numero > 0) {
-                somaNumeros += numero;
-            }
-        } while (numero != 0);
-
-        System.out.println("A soma dos números positivos é: " + somaNumeros);
+		
+		System.out.println("A soma dos números positivos é: " + cont);
 
 	}
 
