@@ -19,17 +19,12 @@ public class LacosRepeticaoWhileEx1 {
 		
 			}
 			else if(idadePessoa >= 50){
-				maiores50 = maiores50 + 1;
-				
-				
+				maiores50 = maiores50 + 1;	
+		
 			}
-
-			
 		}
 		System.out.println("Total de pessoas menores de 21 anos: " + menores21);
 		System.out.println("Total de pessoas maiores de 50 anos: " + maiores50);
-		
-		
 		
 		sc.close();
 		

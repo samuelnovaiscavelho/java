@@ -23,18 +23,12 @@ public class LacosRepeticaoForEx1 {
 			for(int contador = 1; contador <= intervaloUltimo; contador++) {
 				contador = intervaloPrimeiro + 1;
 				System.out.println(contador);
-				
-					
 			}
 			
 		}else if(intervaloPrimeiro > intervaloUltimo) {
 			System.out.println("Intervalo inválido!");
 			
 		}
-
-		
-		
-		//System.out.println("No Intervalo entre " + intervaloPrimeiro  + " e " + intervaloUltimo + ":");
 		
 		sc.close();
 		
