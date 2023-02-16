@@ -1,14 +1,18 @@
 package collections;
 
 import java.util.ArrayList;
+
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class EstruturaDadosFilaEx1 {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+		Queue<String> clientes = new LinkedList<>();
 
         List<String> cores = new ArrayList<>();
 
