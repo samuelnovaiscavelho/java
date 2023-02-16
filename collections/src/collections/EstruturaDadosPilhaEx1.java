@@ -1,5 +1,7 @@
 package collections;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -11,6 +13,8 @@ public class EstruturaDadosPilhaEx1 {
         Stack<String> livros = new Stack<>();
 
         int opcao = 6;
+        Queue<Integer> fila = new LinkedList<Integer>();
+
         do {
         	System.out.println("###########################");
             System.out.println("1- Adicionar Livro na pilha");
