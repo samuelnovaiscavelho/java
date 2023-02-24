@@ -16,6 +16,10 @@ public class Cliente {
 		this.endereco = endereco;
 	}
 
+	public Cliente(String nome2, String telefone2, Integer idade, String email, String endereco2, Integer tipo) {
+		
+	}
+
 	public String getNome() {
 		return nome;
 	}
